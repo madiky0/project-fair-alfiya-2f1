@@ -1,0 +1,175 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(239, 254, 255);
+}
+.main{
+height: 50px;
+border: 3px solid;
+display: flex;
+
+}
+    
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(244, 239, 239);
+    padding: 15px;
+}
+.menu a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(102, 126, 127);
+    font-weight: bold;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.box{
+    border: solid;
+    width: 300px;
+    text-align: center;
+    padding: 40px;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+.hero-section{
+  background-image: url(https://mrwallpaper.com/images/hd/heart-shapes-islands-aesthetic-landscape-vw9w8kvk4gcc6zkk.jpg);
+
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 228, 226);  
+    
+   
+    
+    
+    
+    
+    
+    
+}
+
+.hero-section a:hover{
+background-color: #7c9b9b;
+display: flex;
+justify-content: center;
+
+}
+
+.overlay {
+    background: rgba(71, 59, 59, 0.5);
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+   text-align: center;
+    margin: 60px;
+}
+ .hero-section h1 {
+    font-size: 4em;
+ }
+ .hero-section p {
+    font-size: 1.5em;
+    margin: 20px 0;
+ }
+ 
+    .about us {
+      flex-wrap: wrap;
+        text-align: center;
+        background-color: #000000;
+        padding: 20px;
+      }
+      
+      .cards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        background-color: rgb(115, 169, 165);
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(148, 126, 126, 0.618);
+        width: 200px;
+        text-align: center;
+      }
+      
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      
+      .card h3 {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+      
+      .card p {
+        margin: 10px 0;
+        color: #1a4d3b;
+      }
+      .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: rgb(201, 220, 217);
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(255, 251, 251, 0.1);
+      }
+      .text-section{
+        max-width: 50%;
+      }
+      h1{
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      p{
+        font-size: 1.1em;
+        line-height: 1.6 ;
+        margin-bottom: 20px;
+      }
+      .image-section{
+        display: flex;
+        gap: 10px;
+      }
+      .image-section img{
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      @media only screen and (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          padding: 10px;
+        }
+      
+        .header {
+          font-size: 1.5em;
+        }
+      
+        .menu {
+          display: block; 
+        }
+      
+        
+        .btn {
+          width: 100%; 
+        }
+      }
+      
+      
+     

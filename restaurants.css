@@ -1,0 +1,126 @@
+
+body {
+    background-color: #1a1616;
+    color: #a49d9d;
+      margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(88, 79, 79);
+    padding: 15px;
+  }
+  .menu a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(195, 121, 135);
+    font-weight: bold;
+  }
+  .menu a:hover{
+    text-decoration: underline;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.lumina-section {
+    margin-bottom: 50px;
+}
+
+.lumina-header h1 {
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.event-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.event {
+    width: 22%;
+    margin-bottom: 20px;
+    background-color: #444;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.event-info h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: rgb(204, 213, 221);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.event-info p {
+    font-size: 0.9rem;
+    color: #c7d5db;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.featured-event {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featured-image {
+    width: 40%;
+    position: relative;
+}
+
+.featured-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+.event-details {
+    width: 50%;
+}
+
+.event-details p {
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #a49d9d;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .header {
+      font-size: 1.5em;
+    }
+  
+    .menu {
+      display: block; 
+    }
+  
+    
+    .btn {
+      width: 100%; 
+    }
+  }
+  
+  
+
